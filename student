@@ -1,0 +1,16 @@
+CREATE TABLE students (
+    student_id NUMBER PRIMARY KEY,
+    first_name VARCHAR2(50),
+    last_name VARCHAR2(50),
+    age NUMBER,
+    department VARCHAR2(50)
+);
+INSERT INTO students (student_id, first_name, last_name, age, department)
+VALUES (23, 'Haider', 'Khan', 20, 'Computer Science');
+
+INSERT INTO students (student_id, first_name, last_name, age, department)
+VALUES (37, 'Hina', 'Malik', 16, 'Mathematics');
+
+INSERT INTO students (student_id, first_name, last_name, age, department)
+VALUES (12, 'Usman', 'Ali', 11, 'Physics');
+SELECT*FROM STUDENTS;
